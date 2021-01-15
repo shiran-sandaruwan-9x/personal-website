@@ -1,0 +1,65 @@
+body>header{
+    position: relative;
+    height: 400px;
+}
+
+
+body>header>section:nth-child(1){
+    position:sticky;
+    width:98.78277vw;
+    /*height: 6.146926536731634vh;*/
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: url("../assersts/pic/banner-943866_1920.jpg");
+    background-size: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: brightness(110%);
+}
+body>article{
+    position: relative;
+}
+body>article>p{
+
+}
+
+/*body>header>section{*/
+/*    position: sticky;*/
+/*    width: 9vh;*/
+/*}*/
+/*body>header>section>img:nth-child(1){*/
+/*position: absolute;*/
+/*    width: 105.4172767203514vw;*/
+/*    height: 6.146926536731634vh;*/
+/*    filter: brightness(110%);*/
+/*}*/
+
+
+body>header>section>ul{
+    position: absolute;
+    right: 68px;
+    list-style: none;
+    font-family: Brawler;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0c0c0c;
+    top: -9px;
+    margin: 0;
+    bottom: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body>header>section>ul>li{
+    display: inline-block;
+    padding: 16px;
+}
+body>header>section>img:nth-child(2){
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    left: 1306px;
+    top: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
