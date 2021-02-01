@@ -182,7 +182,7 @@ body>main>section:nth-child(2)>section:nth-child(2)>h1:nth-child(1){
     font-family: cursive;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li{
     margin: 53px 0;
     width: 500px;
     font-family: Roboto;;
@@ -190,11 +190,11 @@ body>main>section:nth-child(2)>section:nth-child(2)>li{
     /* font-size: 12px; */
     padding-left: 25px;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li>h3{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li>h3{
     font-size: 16px;
     margin: 0;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li>span{
     background: #353b48;
     display: block;
     height: 2px;
@@ -203,26 +203,30 @@ body>main>section:nth-child(2)>section:nth-child(2)>li>span{
     overflow: hidden;
     box-shadow: 0 0 10px #2187e7b3;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li>span>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li>span>span{
     height: 2px;
     float: left;
     background: #2187e7
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li:nth-child(2)>span>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(1)>span>span{
     width: 90%;
     animation: bar1 4s;
+    animation-iteration-count: infinite;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li:nth-child(3)>span>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(2)>span>span{
     width: 40%;
     animation: bar2 4s;
+    animation-iteration-count: infinite;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li:nth-child(4)>span>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(3)>span>span{
     width: 70%;
     animation: bar3 4s;
+    animation-iteration-count: infinite;
 }
-body>main>section:nth-child(2)>section:nth-child(2)>li:nth-child(5)>span>span{
+body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(4)>span>span{
     width: 50%;
     animation: bar4 4s;
+    animation-iteration-count: infinite;
 }
 @keyframes bar1 {
     0%{
@@ -292,14 +296,17 @@ body>main>section:nth-child(2)>section:nth-child(3)>li>span>span{
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(1)>span>span{
     width: 90%;
     animation: bar5 4s;
+    animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(2)>span>span{
     width: 40%;
     animation: bar6 4s;
+    animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(3)>span>span{
     width: 70%;
     animation: bar7 4s;
+    animation-iteration-count: infinite;
 }
 @keyframes bar5 {
     0%{
@@ -367,6 +374,9 @@ body>main>section:nth-child(3)>section:nth-child(2)>div:nth-child(1){
     position: absolute;
     left: 65px;
     background-size: cover;
+    animation-name: CircleAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 body>main>section:nth-child(3)>section:nth-child(2)>div:nth-child(2){
     background: url("../assersts/picCircle/pack1/pack1-2.jpg");
@@ -669,4 +679,8 @@ body>main>section:nth-child(5)>pre:nth-child(7){
 }
 body>main>section:nth-child(5)>pre:nth-child(8){
     left: 1157px;
+}
+
+@media all and (max-width: 320px){
+
 }
