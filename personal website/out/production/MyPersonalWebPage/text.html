@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Animation</title>
+    <style>
+        h1{
+            animation: TextAboutMe 3s steps(8);
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 4px solid black;
+        }
+        @keyframes TextAboutMe {
+            0%{
+                width: 0ch;
+            }
+            100%{
+                width: 8ch;
+            }
+        }
+        p:after{
+            animation: animate1 infinite 2s;
+            content: '';
+        }
+        @keyframes animate1 {
+            0%{
+                content: 'SOFTWARE ENGINNER';
+            }
+            25%{
+                content: 'UI DESIGNER';
+            }
+            50%{
+                content: 'WEB DEVELOPER';
+            }
+            75%{
+                content: 'GRAPHIC DESIGNER';
+            }
+            100%{
+                content: 'PHOTOGRAPHY';
+            }
+        }
+
+    </style>
+</head>
+<body>
+<h1>About Me</h1>
+<p>I am a </p>
+</body>
+</html>

@@ -1,0 +1,186 @@
+body>header{
+    position: absolute;
+    /*height: 400px;*/
+}
+
+
+body>header>section:nth-child(1){
+    position:fixed;
+    /*width:98.78277vw;*/
+    width: 1349.3726382px;
+    z-index: 5;
+    /*height: 6.146926536731634vh;*/
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: url("../assersts/pic/GIF-210115_165135.gif");
+    background-size: cover;
+    /*filter: brightness(110%);*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body>main{
+    position: relative;
+}
+body>article>p{
+
+}
+body>header>section>ul{
+    position: absolute;
+    right: 68px;
+    list-style: none;
+    font-family: Brawler;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: white;
+    top: -9px;
+    margin: 0;
+    bottom: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body>header>section>ul>li{
+    display: inline-block;
+    padding: 16px;
+}
+body>header>section>img:nth-child(2){
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    right: 13px;
+    top: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+body>header>section>p:nth-child(3){
+    position: absolute;
+    font-family: Brawler;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    top: -11px;
+    left: 18px;
+    color: white;
+    bottom: 0;
+}
+body>header>div:nth-child(3){
+    background: url("../assersts/pic/GIF-210116_014620.gif");
+    top: 48px;
+    right: 0;
+    position: relative;
+    width:1349px;
+    /*width: 98.75549048316252vw;*/
+    height: 258px;
+    /*height: 38.680659670164914vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body>header>pre{
+    position: absolute;
+    font-family: Brawler;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    top: 206px;
+    right: 12px;
+    color: #ffffff;
+}
+body>header>div>img{
+    width: 34px;
+    height: 32px;
+}
+body>header>div:nth-child(5){
+    position: absolute;
+    top: 267px;
+    right: 267px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body>header>div:nth-child(6){
+    position: absolute;
+    top: 267px;
+    right: 184px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+body>header>div:nth-child(7){
+    position: absolute;
+    top: 267px;
+    right: 96px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+body>header>div:nth-child(8){
+    position: absolute;
+    top: 267px;
+    right: 9px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body>header>div:nth-child(9){
+    position: absolute;
+    top: 307px;
+    width:1349px;
+    /*width: 98.75549048316252vw;*/
+    height: 38px;
+    background: url("../assersts/pic/white-wallpaper-12.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: 182px;
+}
+body>header>div:nth-child(9)>div{
+    position: absolute;
+    width: 38px;
+    height: 0px;
+    top: 18px;
+    mix-blend-mode: normal;
+    border: 1px solid #B5AFAF;
+    transform: rotate(90deg);
+}
+body>header>div:nth-child(9)>div:nth-child(1){
+    left: 259.8px;
+}
+body>header>div:nth-child(9)>div:nth-child(2){
+    left: 539.6px;
+}
+body>header>div:nth-child(9)>div:nth-child(3){
+    left: 809.4px;
+}
+body>header>div:nth-child(9)>div:nth-child(4){
+    left: 1079.2px;
+}
+body>header>div:nth-child(9)>p{
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Brawler;
+    font-size: 16px;
+    position: absolute;
+
+}
+body>header>div:nth-child(9)>p:nth-child(5){
+left: 52px;
+    bottom: 0;
+    top: -5px;
+}
+body>header>div:nth-child(9)>p:nth-child(6){
+    left: 372px;
+    top: -5px;
+    bottom: 0;
+}
+body>header>div:nth-child(9)>p:nth-child(7){
+    left: 630px;
+    top: -5px;
+    bottom: 0;
+}
+body>header>div:nth-child(9)>p:nth-child(8){
+    right: 309px;
+top: -5px;
+    bottom: 0;
+}
+body>header>div:nth-child(9)>p:nth-child(9){
+right: 62px;
+    top: -5px;
+    bottom: 0;
+}
+
+

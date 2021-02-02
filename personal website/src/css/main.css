@@ -34,6 +34,18 @@ body>main>section:nth-child(1)>div:nth-child(2)>p:nth-child(2){
     right: -923px;
     top: 346px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: TextAboutMe infinite 3s steps(10);
+    overflow: hidden;
+    white-space: nowrap;
+    /*border-right: 4px solid black;*/
+}
+@keyframes TextAboutMe {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 10ch;
+    }
 }
 body>main>section:nth-child(1)>div:nth-child(2)>p:nth-child(3){
     font-family: Brawler;
@@ -44,8 +56,40 @@ body>main>section:nth-child(1)>div:nth-child(2)>p:nth-child(3){
     line-height: 24px;
     right: -750px;
     top: 399px;
+    color: black;
+    animation: animate1 infinite 3s;
+    white-space: nowrap;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@keyframes animate1 {
+    0%{
+       color: #1bb135;
+        width: 0ch;
+    }
+    25%{
+        color: #353b48;
+        width: 5ch;
+
+    }
+    50%{
+        color: #B5AFAF;
+        width: 10ch;
+        height: 0ch;
+    }
+    75%{
+        color: chartreuse;
+        width: 15ch;
+
+    }
+    100%{
+        color: #1bb135;
+        width: 20ch;
+
+    }
+}
+
+
 body>main>section:nth-child(1)>div:nth-child(2)>pre:nth-child(4){
     font-family: Brawler;
     position: absolute;
@@ -209,22 +253,22 @@ body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li>span
     background: #2187e7
 }
 body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(1)>span>span{
-    width: 90%;
+    width: 80%;
     animation: bar1 4s;
     animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(2)>span>span{
-    width: 40%;
+    width: 75%;
     animation: bar2 4s;
     animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(3)>span>span{
-    width: 70%;
+    width: 81%;
     animation: bar3 4s;
     animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-child(4)>span>span{
-    width: 50%;
+    width: 80%;
     animation: bar4 4s;
     animation-iteration-count: infinite;
 }
@@ -233,7 +277,7 @@ body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-
         width: 0%;
     }
     100%{
-        width: 90%;
+        width: 80%;
     }
 }
 @keyframes bar2 {
@@ -241,7 +285,7 @@ body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 75%;
     }
 }
 @keyframes bar3 {
@@ -249,7 +293,7 @@ body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 81%;
     }
 }
 @keyframes bar4 {
@@ -257,7 +301,7 @@ body>main>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>li:nth-
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -294,17 +338,17 @@ body>main>section:nth-child(2)>section:nth-child(3)>li>span>span{
     background: #2187e7
 }
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(1)>span>span{
-    width: 90%;
+    width: 70%;
     animation: bar5 4s;
     animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(2)>span>span{
-    width: 40%;
+    width: 50%;
     animation: bar6 4s;
     animation-iteration-count: infinite;
 }
 body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(3)>span>span{
-    width: 70%;
+    width: 99%;
     animation: bar7 4s;
     animation-iteration-count: infinite;
 }
@@ -313,7 +357,7 @@ body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(3)>span>span{
         width: 0%;
     }
     100%{
-        width: 90%;
+        width: 70%;
     }
 }
 @keyframes bar6 {
@@ -321,7 +365,7 @@ body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(3)>span>span{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 50%;
     }
 }
 @keyframes bar7 {
@@ -329,7 +373,7 @@ body>main>section:nth-child(2)>section:nth-child(3)>li:nth-child(3)>span>span{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 99%;
     }
 }
 
